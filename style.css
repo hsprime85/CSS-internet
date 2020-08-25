@@ -1,0 +1,277 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#container {
+    background-color: white;
+    width: 970px;
+    min-height: 900px;
+}
+
+    header .topGlobe{
+        display: flex;
+        justify-content: flex-start;
+        background-color: white;
+    }
+
+        header #globe {
+            width: 70px;
+            position: absolute;
+            top: 10px;
+            left: 470px;
+            z-index: 1;
+        }
+
+        #theInternet {
+            margin-top: 20px;
+            margin-left: 70px;
+            font-weight: lighter;
+            font-size: 40px;
+            
+        }
+
+        #theInternet span{
+            color: #3873A7;
+        }
+
+    header #www {
+        display: block;
+        background: rgb(40,104,159);
+        background: linear-gradient(0deg, rgba(40,104,159,1) 0%, rgba(147,170,190,1) 47%, rgba(40,104,159,1) 100%);
+        height: 45px;
+        color: white;
+        font-weight: lighter;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    main {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        aside {
+            margin-left: 10px;
+            margin-top: 25px;
+            width: 20%;
+        }
+
+        aside h4 {
+            margin-bottom: 10px;
+        }
+
+        aside h4 span {
+            color: red;
+        }
+
+        aside p {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+            aside p span {
+                color: #3873A7;
+            }
+
+        #asideButton1 {
+            width: 190px;
+            height: 30px;
+            margin-bottom: 5px;
+            font-size: 17px;
+            border-radius: 5px;
+            color: white;
+            background-color: #4782B3;
+            border: none;
+        }
+        
+        #asideButton2 {
+            width: 190px;
+            height: 30px;
+            margin-bottom: 5px;
+            font-size: 17px;
+            border-radius: 5px;
+            color: white;
+            background-color: #EE8000;
+            margin-bottom: 35px;
+            border: none;
+
+        }
+
+            aside div {
+                border-bottom: 1px solid gray;
+            }
+
+        #backgroundImg {
+            width: 180px;
+            position: absolute;
+            top: 370px;
+            left: 485px;
+            z-index: 1;
+
+        }
+
+        #ninjaImg {
+            width: 90px;
+            position: absolute;
+            top: 450px;
+            left: 528px;
+            z-index: 2;
+        }
+        
+        #imgText {
+            width: 150px;
+            position: absolute;
+            top: 390px;
+            left: 500px;
+            z-index: 3;
+            color: white;
+            width: 150px;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        #asideButton3 {
+            position: absolute;
+            top: 580px;
+            left: 500px;
+            z-index: 4;
+            width: 150px;
+            height: 25px;
+            margin-bottom: 5px;
+            font-size: 13px;
+            border-radius: 5px;
+            color: white;
+            background-color: #4ACADE;
+            border: none;
+
+        }
+
+
+        section {
+            margin-left: 40px;
+            padding-right: 15px;
+        }
+
+        #mainTop {
+            display: flex;
+            justify-content: flex-start;
+            border-bottom: 1px solid gray;
+        }
+
+        #home {
+            width: 25px;
+            height: 25px;
+            margin-top: 10px;
+        }
+
+        #mainTop h4 {
+            margin-top: 15px;
+            margin-left: 5px;
+            font-weight: lighter;
+            color: #437AAA;
+        }
+
+        #phone {
+            width: 50px;
+            height: 50px;
+            margin-left: 430px;
+            margin-top: 10px;
+        }
+
+            #mainTopRight {
+                margin-left: 10px;
+                margin-bottom: 20px;
+                margin-top: 5px;
+            }
+
+            #mainTopRight p {
+                font-size: 11px;
+                margin-left: 5px;
+            }
+
+            #mainTopRight h2 {
+                color: #00C2E0;
+                
+            }
+
+        #clientAndServers {
+            margin-top: 15px;
+        }
+
+            #clientAndServers h3 {
+                color: #2C6CA2;
+                margin-bottom: 5px;
+            }
+
+                .spanColor {
+                    color: #00C2E0;
+                }
+
+                .spanBold {
+                    font-weight: bold;
+                }
+
+                .spanItalic {
+                    font-style: italic;
+                }
+
+                #clientAndServers ul {
+                    text-indent: -20px;
+                    margin-left: 40px;
+                    list-style-position: inside;
+                    font-size: 14.8px;
+                }
+
+                #clientAndServers li {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+
+            #serverClientImg {
+                margin-top: 5px;
+                width: 250px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 15px;
+            }    
+
+            #clientAndServers ol {
+                text-indent: -20px;
+                margin-left: 40px;
+                list-style-position: inside;
+                font-size: 14.8px;
+            }
+
+            #clientAndServers li {
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+
+        #theBig3 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            outline: 5px solid blue;
+            padding: 10px;
+        }
+
+            #htmlImg {
+                width: 120px;
+                height: 120px;
+            }
+
+            #theBig3 h3 {
+                margin-bottom: 10px;
+                margin-left: 20px;
+                margin-top: 5px;
+            }
+
+            #theBig3 p {
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-size: 15.3px;
+            }
